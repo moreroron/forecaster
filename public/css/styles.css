@@ -154,16 +154,21 @@ footer .container-footer {
     font-size: 3em;
     font-weight: bold;
     color: #565BE1;
-    
+}
+
+.card .temp {
+    display: block;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(247,247,252,1) 50%, rgba(247,247,252,1) 100%);
 }
 
 .card-bg {
     /* z-index: 0;
     position: absolute;
     top: 6em; */
-    width: 85%;
+    /* width: 85%; */
     background: #F7F7FC;
-    border-radius: 1em;
+    /* border-radius: 1em; */
     padding: 1em;
     margin: 0 auto;
 }
