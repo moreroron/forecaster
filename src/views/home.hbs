@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/34f2ea95f1.js" crossorigin="anonymous"></script>
+    {{!-- <link rel="icon" href="/img/weather.png"> --}}
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>forecaster - homepage</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        {{!-- body --}}
+        <div class="body-container">
+            <div class="topper">
+                <h2>Results</h2>
+                <div class="dropdown">
+                    <span>celsius<i style="margin-left: 1em" class="fas fa-caret-down"></i></span>
+                    <div class="dropdown-content">
+                        <p>celsius</p>
+                        <p>fahrenheit</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Tel Aviv, Israel</h3>
+                <span>26 °C</span>
+
+                <div class="card-bg">
+                    <div class="weather-container-up">
+                        <span><i class="fas fa-poo-storm"></i></span>
+                    </div>
+                    <div class="weather-container-down">
+                        Sunny
+                    </div>
+                    <p>
+                        Mixed precipitation throughout the week, with temperatures falling to 39°F on Saturday.
+                    </p>
+                </div>
+
+                <div class="card-info">
+                    <div>temperature high</div>
+                    <div class="card-info-value">1</div>
+
+                    <div>temperature low</div>
+                    <div class="card-info-value">1</div>
+
+                    <div>humidity</div>
+                    <div class="card-info-value">1</div>
+
+                    <div>wind speed</div>
+                    <div class="card-info-value">1</div>
+
+                    <div>precip probability</div>
+                    <div class="card-info-value">1</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>

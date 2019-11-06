@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="534px" height="95px" viewBox="0 0 534 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Dosis-ExtraLight_Bold, Dosis" font-weight="bold">
+        <g id="logo" transform="translate(-6.000000, -24.000000)" fill="#565BE1">
+            <g id="Group">
+                <g id="Group-2">
+                    <text id="forecaster" font-size="123" line-spacing="136" letter-spacing="-0.699999988">
+                        <tspan x="0" y="126">forecas</tspan>
+                        <tspan x="363.548137" y="126">ter</tspan>
+                    </text>
+                    <text id="TM" font-size="15" letter-spacing="1">
+                        <tspan x="521.332259" y="70">T</tspan>
+                        <tspan x="530.179498" y="70">M</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

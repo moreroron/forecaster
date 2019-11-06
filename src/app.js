@@ -16,7 +16,7 @@ hbs.registerPartials(partialsPath);
 app.use(express.static(publicDirectoryPath));
 
 app.get('/home', (req, res) => {
-    res.render('index', { message: 'welcome !' });
+    res.render('home', { message: 'welcome !' });
 })
 
 app.listen(3000, () => console.log('Forecaster is live on port 3000'));
