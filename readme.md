@@ -18,8 +18,5 @@ Design - original, made with Sketch
 * [mapbox](https://www.mapbox.com) - api for fetching latitude & longitude data
 * [darksky](https://www.darksky.net) - api for fetching the forecast itself (using mapbox returned data)
 
-## Tools:
-* [fontawesome](https://fontawesome.com/) - The web's most popular icon set and toolkit
-
 ## Screenshots
 ![alt text](screenshot.png)
