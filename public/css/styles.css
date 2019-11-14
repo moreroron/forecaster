@@ -65,14 +65,14 @@ header .container {
 
 header .search-area {
     margin-top: 2em;
-    background: #3236B9;
+    background-image: linear-gradient(0deg, #212DB7 0%, #575BE4 75%, #686AF3 100%);
     padding: 2em;
     border-radius: 1em;
     
 }
 
 header .search-area h3 {
-    color: #CFD0DD;
+    color: rgb(255, 255, 255);
     padding-bottom: 0.8em;
 }
 
@@ -131,14 +131,15 @@ footer .container-footer {
 
 .card {
     /* position: relative; */
+    margin: 0 auto;
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
-    border: 1px solid #979797;
+    border: 1px solid #97979765;
     background-color: #ffffff;
     padding: 2em;
     border-radius: 1em;
-    max-width: 30%
+    max-width: 60%
 }
 
 .card h3 {
@@ -228,10 +229,31 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     justify-content: space-between;	
     justify-items: center;
     text-align: left;
-    color: #565BE1;
+    color:#777aa0;
     margin-top: 1em;
 }
 
 .card-info-value {
     font-weight: bold;
+}
+
+.weather-icon {
+    height: 2em;
+    width: 2em;
+}
+
+.results-error {
+    padding: 1.2em;
+    border: 0.07em solid rgb(228, 217, 158);
+    background-color: rgb(255, 247, 226);
+    color: #bb8c33!important;
+    text-align: center;
+    border-radius: 0.4em;
+    font-size: 1em;
+}
+
+.results {
+    color: #8385B1;
+    text-align: center;
+    font-size: 1em;
 }
