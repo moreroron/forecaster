@@ -20,4 +20,4 @@ Design - original, made with Sketch
 * [fontawesome](https://fontawesome.com/) - The web's most popular icon set and toolkit
 
 ## Screenshots
-![alt text](screencapture-localhost-3000-2019-11-14-17_25_40.png)
+![alt text](screenshot.png)
