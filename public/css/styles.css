@@ -15,7 +15,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .card { width: 100% }
+    /* .card { width: 100% } */
     .results { margin-top: 8em }
     footer .container-footer img { display: none }
     footer .container-footer { width: inherit }
