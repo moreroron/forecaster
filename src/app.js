@@ -18,10 +18,6 @@ hbs.registerPartials(partialsPath);
 // setup staic directory to serve
 app.use(express.static(publicDirectoryPath));
 
-app.get('/home', (req, res) => {
-    res.render('home');
-})
-
 app.get('/weather', (req, res) => {
 
     if (!req.query.address) {
@@ -63,4 +59,11 @@ app.get('/weather', (req, res) => {
 
 });
 
-app.listen(3000, () => console.log('Forecaster is live on port 3000'));
+app.get('*', (req, res) => {
+    res.render('home');
+})
+
+const port = process.env.PORT || 3000
+app.listen(port, () => {
+    console.log('forecaster is up on port ' + port)
+})
