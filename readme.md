@@ -2,6 +2,8 @@
 
 A small but useful app for weather information.
 
+[https://forecaster.com/](https://morero-forecaster.herokuapp.com/)
+
 ## Technical Info
 forecaster lets the user type any location in the world, and by fetching two 3rd party APIs and chaining them together in the background, the app responeds with an informative forecast for today.
 
