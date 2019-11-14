@@ -13,7 +13,7 @@ form.addEventListener('submit', (event) => {
             if (data.error) {
                 results.classList.add('results-error');
                 results.innerHTML = `${data.error}`;
-                cardsContainer.innerHTML = ``;
+                cardsContainer.innerHTML = `Error!!!`;
             } else {
                 results.classList.remove('results-error');
                 results.innerHTML = ``;

@@ -8,7 +8,6 @@ const forecast = (longitude, lantitude, callback) => {
         } else if (body.error) {
             callback('No such long/lat', undefined);
         } else {
-            console.log(body);
             callback(undefined, {
                 temperature: body.currently.temperature,
                 icon: body.daily.data[0].icon,
