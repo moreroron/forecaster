@@ -40,7 +40,7 @@ form.addEventListener('submit', (event) => {
                     <div class="card-info-value">${Math.round(data.temperatureLow)}°</div>
 
                     <div>Humidity</div>
-                    <div class="card-info-value">${100 * data.humidity}%</div>
+                    <div class="card-info-value">${(100 * data.humidity).toFixed(0)}%</div>
 
                     <div>Wind Speed</div>
                     <div class="card-info-value">${(data.windSpeed * 1.609).toFixed(2)} <span style="font-size: 0.5em; color: #777aa0">km/h</span></div>
@@ -53,5 +53,4 @@ form.addEventListener('submit', (event) => {
             }
         })
     })
-
 });

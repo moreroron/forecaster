@@ -9,6 +9,15 @@ body {
     width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    .card { max-width: 100% }
+    .results { margin-top: 8em }
+}
+
+@media only screen and (min-width: 600px) {
+    .card { max-width: 60% }
+  }
+
 /* dropdown */
 .dropdown {
     position: relative;
@@ -139,7 +148,7 @@ footer .container-footer {
     background-color: #ffffff;
     padding: 2em;
     border-radius: 1em;
-    max-width: 60%
+    /* max-width: 60% */
 }
 
 .card h3 {
