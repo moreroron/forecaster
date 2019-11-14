@@ -15,6 +15,7 @@ form.addEventListener('submit', (event) => {
                 results.innerHTML = `${data.error}`;
                 cardsContainer.innerHTML = ``;
             } else {
+                input.blur();
                 results.classList.remove('results-error');
                 results.innerHTML = ``;
                 cardsContainer.innerHTML = `
