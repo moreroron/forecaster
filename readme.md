@@ -1,27 +1,23 @@
-# yarn
+# forecaster
 
-A platform for streaming content lighting-fast.
+A small but useful app for weather information.
 
 ## Technical Info
-A fullstack project, based on MVC architectural pattern. 
+forecaster lets the user type any location in the world, and by fetching two 3rd party APIs and chaining them together in the background, the app responeds with an informative forecast for today.
 
 ## Built with
-Front-end - Razor (html & C# baby)
+Front-end - javascript
 
-Back-end - .Net Framework under C#
-
-Database - SQL (using Entity Framework "code first", which enables working with a database using .NET objects)
+Back-end - Nodejs & express.js (handlebars as the template engines)
 
 Design - original, made with Sketch
 
-## Tools:
+## APIs:
+* [mapbox](https://www.mapbox.com) - api for fetching latitude & longitude data
+* [darksky](https://www.darksky.net) - api for fetching the forecast itself (using mapbox returned data)
 
-* [D3](https://d3js.org/) - JavaScript library for manipulating documents based on data
-* [Tweetinvi](https://www.nuget.org/packages/TweetinviAPI/) - NET C# library that allows interaction with Twitter
-* [Google Maps](https://developers.google.com/maps/documentation/) - Google maps API
-* [jQuery](https://jquery.com/) - JavaScript library designed to simplify HTML DOM
-* [Bootstrap](https://getbootstrap.com/) - Open source toolkit for developing with HTML, CSS, and JS
+## Tools:
 * [fontawesome](https://fontawesome.com/) - The web's most popular icon set and toolkit
 
 ## Screenshots
-![alt text](https://github.com/moreroron/yarn-rider/blob/master/pres.png?raw=true)
+![alt text](screencapture-localhost-3000-2019-11-14-17_25_40.png)
