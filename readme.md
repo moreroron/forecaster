@@ -12,8 +12,6 @@ Front-end - javascript
 
 Back-end - Nodejs & express.js (handlebars as the template engines)
 
-Design - original, made with Sketch
-
 ## APIs:
 * [mapbox](https://www.mapbox.com) - api for fetching latitude & longitude data
 * [darksky](https://www.darksky.net) - api for fetching the forecast itself (using mapbox returned data)
